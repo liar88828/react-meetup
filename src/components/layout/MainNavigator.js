@@ -8,12 +8,12 @@ function MainNavigator() {
         <ul>
           <li>
             <Link to="/">All Meetups</Link>
-          </li>{" "}
+          </li>
           <li>
             <Link to="/new--meetup">New Meetup</Link>
-          </li>{" "}
+          </li>
           <li>
-            <Link to="/favorites">Favorites</Link>
+            <Link to="/favorites">Favorite pages</Link>
           </li>
         </ul>
       </nav>
