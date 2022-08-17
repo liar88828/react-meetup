@@ -8,10 +8,10 @@ function App() {
     <div>
       <MainNavigator />
       <Routes>
-        <Route path="/" element={<NewMeetupPage />} />
+        <Route path="/" element={<AllMeetupPage />} />
       </Routes>
       <Routes>
-        <Route path="/new--meetup" element={<AllMeetupPage />} />
+        <Route path="/new--meetup" element={<NewMeetupPage />} />
       </Routes>
       <Routes>
         <Route path="/favorites" element={<FavoritePages />} />

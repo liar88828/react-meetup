@@ -1,8 +1,6 @@
-export default function FavoritePages() {
-   return (
-    <section className="section">
-      FavoritePages
-    </section>
-  );
+function FavoritePages() {
+  return <div>FavoritePages</div>;
 }
+
+export default FavoritePages;
  
