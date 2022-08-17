@@ -1,11 +1,13 @@
 .header{
+    
     width: 100%;
     height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    background-color:rgba(173, 247, 14, 0.582);
     padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .logo{
     font-size: 2rem;
@@ -20,17 +22,29 @@
     align-items: baseline;
 }
 .header li{
+  
+    text-align: center;
     margin-left: 3rem;
+  
 }
+.header li:hover {
+  
+    transition: 0.5s;
+    background-color: yellow;
+}
+
 .header a{
     text-decoration: none;
     font-size: 1.5rem;
-    color: pink;
+    color: rgb(237, 90, 16);
+    
 }
 .header a:hover,
 .header a:active,
 .header a.active {
-    color:white;
+  
+    transition: 0.5s;
+    color:rgb(198, 35, 223);
 }
 
 .badge{
